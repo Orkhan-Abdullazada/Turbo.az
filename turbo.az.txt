@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="turbo.css">
+</head>
+<body>
+    <a href="#">Tap.az</a>
+    <a href="#">Bina.az</a>
+    <a href="#">Boss.az</a>
+    <b>Destek:</b>(012) 505-77-55
+    <a href="#">Yardim</a>
+    <a href="#">RU</a>
+    <img height="15" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQdepkFlqY6Bz-9R_sDvfFB1zFS_JyxwAUkA&usqp=CAU" alt=""><a href="#">Secilmisler</a>
+   <img height="20" src="data:image/png;base64,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" alt=""> <a href="#">Giris</a>
+    <div>
+   <div class="contain">
+        <h1>Turbo.az</h1>
+        <b>Butun elanlar</b>
+        <b>Avto salonlar</b>
+        <b>Moto</b>
+        <b>Ehtiyyat hisseleri ve aksesuarlar</b>
+        <button>Yeni Elan</button>
+        </div>
+        <div class="style">
+       <p>Marka</p> <select name="" id=""></select>
+       <p>Model</p> <select name="" id=""></select>
+      <label for="">Qiymet,min</label>
+      <input type="s" name="s" id="#">
+      <label for="m">max</label>
+      <input type="max">
+      <br>
+      <label for="s">Model</label>
+      <select name="" id=""></select>
+      <label for="s">AZN</label>
+      <select name="s" id="s">s</select>
+      <button>Kredit</button>
+      <button>Barter</button>
+      <label for="$">Hamisi</label>
+      <input type="text">
+      <label for="4">Yeni</label>
+      <input type="s">
+      <label for="s">Surulmus</label>
+      <input type="text" name="" id=""> <br>
+      <label for="">Ban Novu</label>
+      <select name="" id=""></select>
+      <label for="">Seher</label>
+      <select name="" id=""></select>
+      <label for="">Il,Min</label>
+      <select name="" id=""></select>
+<label for="">max</label>
+<select name="" id=""></select> <br>
+<h3> Bu Gun<a href="#"> 1883 yeni elan</a></h3> 
+<b>Sifirla</b>
+<label for="">Daha cox filtr</label>
+<select name="" id=""></select>
+<button>Elanlari Goster</button>
+<h1>Vip Elanlar</h1>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F19%2F11%2F13%2F14%2F09b3e866-e3d1-48ca-9fea-1e7875647d7c%2F91809_pcRhm6dZVtPIH5q7xw5wTQ.jpg" alt="">
+<br>
+<b>33 000AZN</b>
+<p>Wolkswagen Passat</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F04%2F19%2F19%2F24%2F16249335-2c1c-4169-b89d-2efab68423c6%2F88073_OLOnygq_6Sc4-hyZvAx6ag.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F06%2F23%2F17%2F02%2F46%2F588a297d-0702-4619-a1c6-58e116043bbc%2F79842_KZ52xv0BM0Bf5m3E06cWfA.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F07%2F17%2F20%2F03%2F53%2F8d1f38b3-f924-439e-913d-7c84d63a3f05%2F40064_i6k78qQN6h4EtTZ6W6GEPQ.jpg" alt=""> 
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<h1>SON ELANLAR</h1>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<h1>Premium Elanlar</h1>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://turbo.azstatic.com/uploads/f460x343/2023%2F09%2F29%2F13%2F49%2F32%2F05a89af8-d1fe-4b67-b426-fe44645f4767%2F88123_eCd0nfHwPQNMN-HNydySQQ.jpg" alt="">
+<br>
+<b>57 540$</b>
+<p>Toyota Prado</p>
+<p>2018,1.8L, 122 349km</p>
+<p>Baki, 28.09.2023 08:22</p>
+<h1>EHTİYAT HİSSƏLƏR VƏ AKSESUARLAR</h1>
+<img height="180" src="https://tap.azstatic.com/uploads/medium/2023%2F10%2F02%2F06%2F42%2F08%2F01fc95e6-59f4-403f-8973-7bc4b7d69d17%2F3641_OjlnO9maiJ1UNpwWrYCNUQ.jpg" alt="">
+<br>
+<p>5000 AZN</p>
+<p>Avtomobil Qeydiyyat Nisani</p>
+<p>10-00-951</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://tap.azstatic.com/uploads/medium/2023%2F10%2F02%2F06%2F42%2F08%2F01fc95e6-59f4-403f-8973-7bc4b7d69d17%2F3641_OjlnO9maiJ1UNpwWrYCNUQ.jpg" alt="">
+<br>
+<p>5000 AZN</p>
+<p>Avtomobil Qeydiyyat Nisani</p>
+<p>10-00-951</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://tap.azstatic.com/uploads/medium/2023%2F10%2F02%2F06%2F42%2F08%2F01fc95e6-59f4-403f-8973-7bc4b7d69d17%2F3641_OjlnO9maiJ1UNpwWrYCNUQ.jpg" alt="">
+<br>
+<p>5000 AZN</p>
+<p>Avtomobil Qeydiyyat Nisani</p>
+<p>10-00-951</p>
+<p>Baki, 28.09.2023 08:22</p>
+<img height="180" src="https://tap.azstatic.com/uploads/medium/2023%2F10%2F02%2F06%2F42%2F08%2F01fc95e6-59f4-403f-8973-7bc4b7d69d17%2F3641_OjlnO9maiJ1UNpwWrYCNUQ.jpg" alt="">
+<br>
+<p>5000 AZN</p>
+<p>Avtomobil Qeydiyyat Nisani</p>
+<p>10-00-951</p>
+<p>Baki, 28.09.2023 08:22</p>
+<h1>TELEFONLAR 50 AZN-DƏN</h1>
+<img height="180" src="https://tap.azstatic.com/uploads/medium/2023%2F09%2F23%2F12%2F59%2F53%2F4a461af4-4b35-4c8f-9ddf-384a22ea8b8c%2F3611_Pe2tmcGlWbVAQTVWpgRFcQ.jpg" alt="">
+<p>3799 AZN</p>
+<p>Apple Iphone 15 Pro Max Natural Titaniumgb 256gb/8</p>
+<p>Baki, Dunen, 12:21</p>
+<img height="180" src="https://tap.azstatic.com/uploads/medium/2023%2F09%2F23%2F12%2F59%2F53%2F4a461af4-4b35-4c8f-9ddf-384a22ea8b8c%2F3611_Pe2tmcGlWbVAQTVWpgRFcQ.jpg" alt="">
+<p>3799 AZN</p>
+<p>Apple Iphone 15 Pro Max Natural Titaniumgb 256gb/8</p>
+<p>Baki, Dunen, 12:21</p>
+<img height="180" src="https://tap.azstatic.com/uploads/medium/2023%2F09%2F23%2F12%2F59%2F53%2F4a461af4-4b35-4c8f-9ddf-384a22ea8b8c%2F3611_Pe2tmcGlWbVAQTVWpgRFcQ.jpg" alt="">
+<p>3799 AZN</p>
+<p>Apple Iphone 15 Pro Max Natural Titaniumgb 256gb/8</p>
+<p>Baki, Dunen, 12:21</p>
+<img height="180" src="https://tap.azstatic.com/uploads/medium/2023%2F09%2F23%2F12%2F59%2F53%2F4a461af4-4b35-4c8f-9ddf-384a22ea8b8c%2F3611_Pe2tmcGlWbVAQTVWpgRFcQ.jpg" alt="">
+<p>3799 AZN</p>
+<p>Apple Iphone 15 Pro Max Natural Titaniumgb 256gb/8</p>
+<p>Baki, Dunen, 12:21</p>
+<a href="#">Reklam Yerlesdirin</a>
+<img height="50" src="data:image/png;base64,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" alt="">
+<img height="50" src="data:image/png;base64,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" alt="">
+<img height="50" src="data:image/png;base64,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" alt="">
+<a href="#">turbo@turbo.az</a>
+<img height="50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjoWsl1EtkDWLWeyLHyWy4TWAUsecZCNyz_hg2SBECI88xUKQWZ_HAlj4Khh2TILSNvgw&usqp=CAU" alt="">
+(012) 505-77-55 <br>
+<br>
+<a href="s">abarth(4)</a> <br>
+<a href="s">acura(1)</a> <br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<a href="s">Alfa Romeo</a><br>
+<img src="https://counter.yadro.ru/logo?29.3" alt=""><br>
+<a href="">Qaydalar</a>
+<a href="">Qanun</a>
+<a href="">Istifadeci Razilasmasi</a>
+<a href="">Mexfilik Siyaseti</a>
+<div class="romeo">
+<P>Saytin adminstrasiyasi reklam bannerlerinin  və yerləşdirilmiş elanlarin məzmununa görə məsuliyyət daşimir.</P>
+<p>2006-2023 Digital Classifieds MMC. VÖEN: 1405631661 <a href="">Mobil Versiyasi</a></p>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<div>
+            </div>
+    
+</body>
+</html>
+. {
+    margin:  ;
+    padding: ;
+    
+}
+.contain{
+    background-color: red;
+color: white;
+margin-top: 2%;
+color: white;
+
+}
+.style {
+
+}
+.romeo{
+    background-color: red;
+    padding-right: 50%;
+    padding-left: 50%;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+}
